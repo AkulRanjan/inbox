@@ -1,11 +1,11 @@
 {
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+	// Same formatter settings as the VS Code repository: built-in TypeScript formatter, tabs, semicolons.
+	"editor.insertSpaces": false,
+	"editor.formatOnSave": true,
+	"[typescript]": { "editor.defaultFormatter": "vscode.typescript-language-features" },
+	"[javascript]": { "editor.defaultFormatter": "vscode.typescript-language-features" },
+	"typescript.format.semicolons": "insert",
+	"typescript.preferences.importModuleSpecifierEnding": "js",
+	"typescript.tsdk": "node_modules/typescript/lib",
+	"files.exclude": { "out": true }
 }
